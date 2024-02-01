@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumbo | Turismo Colombia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- encabezado del sitio -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-nav-rumbo">
+            <div class="container">
+              <a class="nav" href="#"><img src="img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Planes">Planes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Destinos">Destinos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contacto" >Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="hero">
+            <img src="img/brujula.png" alt="">
+            <h2>RUMBO</h2>
+            <h1>El SITIO WEB DE TURISMO IDEAL PARA TI</h1>
+            <button class="boton">EMPEZAR</button>
+          </div>
+    </header>
+    <!-- secciones principales -->
+    <main>
+        <section id="Planes">
+            <div class="contenedor">
+              <h2>PLANES</h2>
+              <p>En <b>RUMBO</b> tenemos los iguientes planes para ti <br> Selecciona el plan que más se ajuste a la experiencia que quieras vivir </p></div>
+              <br><br><br>
+          <div class="row">
+              <div class="col-md-4 plan">
+                  <img src="img/senderismo.png" alt="">
+                  <h3>SENDERISMO</h3>
+                  <p> 5 a 8 personas <br>
+                      6 km de ruta <br>
+                      150.000 Pesos <br>
+                      Precio por persona
+                  </p>
+              </div>
+                <div class="col-md-4 plan">
+                    <img src="img/canotaje.png" alt="">
+                    <h3>SENDERISMO</h3>
+                    <p> 5 a 8 personas <br>
+                      6 km de ruta <br>
+                      150.000 Pesos <br>
+                      Precio por persona </p>
+              </div>
+                  <div class="col-md-4 plan">
+                    <img src="img/senderismo.png" alt="">
+                    <h3>SENDERISMO</h3>
+                    <p> 5 a 8 personas <br>
+                        6 km de ruta <br>
+                        150.000 Pesos <br>
+                        Precio por persona
+                    </p>
+                </div>
+          </div>
+        </section>
+        <section id="Destinos">
+            <div class="container">
+             <h2>DESTINOS</h2>
+            <div class="row">
+              <div class="col-md-6 destino">
+                <img class="cartagena" src="img/cartagena.png">
+                  <h3>CARTAGENA</h3>
+              </div>
+          
+              <div class="col-md-6 destino">
+                <img class="barranquilla" src="img/barranquilla.png"> 
+                    <h3>BARRANQUILLA</h3>
+                </div>
+              </div>  
+
+           <div class="row">
+              <div class="col-md-6 destino">
+               <img class="cartagena" src="img/llanos.png" >
+                 <h3>LLANOS ORIENTALES</h3>
+              </div>
+                
+              <div class="col-md-6 destino">
+                <img class="barranquilla" src="img/laguajira.png"> 
+                  <h3>LA GUAJIRA</h3> 
+                </div> 
+             </div>
+          </div>
+          
+        </section>
+        <section id="Contacto">
+          <div class="container">
+            <h2><b>CONTACTO</b></h2>
+                <p>Comparte con nosotros tus datos de contacto y te enviaremos <br>
+                     toda la informacón de los medios de pagos.</p>
+                  <form action="">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <input type="text" name="nombres:" id="nombres" placeholder="Nombres">
+                      </div>
+
+                      <div class="col-md-6">
+                        <input type="text" name="telefono:" id="telefono" placeholder="Telefono">
+                      </div>
+
+                      <div class="col-md-6">
+                        <input type="text" name="Email:" id="Email" placeholder="Email">
+                      </div>
+                      <div class="col-md-6">
+                        <select name="ciudad" id="ciudad">
+                          <option selected>ciudad</option>
+                          <option value="">Bogota</option>
+                          <option value="">Cali</option>
+                          <option value="">Medellin</option>
+                          <option value="">El choco</option>
+                          <option value="">Villavisencio</option>
+                        </select>
+                      </div>
+                    </div>
+                      <button class="boton_enviar">ENVIAR</button>
+          
+                  </form>
+              </div>
+              
+          </section>  
+             
+    </main>
+    <!-- pie de pagina            -->
+    <footer>
+      <div class="pie">
+         <p data-aos="fade-right">© Todos los derechos reservados <br>
+        contacto@rumbo.com <br>
+        +57 3212444445 <br>
+        Jhoan Alejandro Salguero Rojas</p>
+
+      </div>
+    </footer>
+    <!-- los scrip siempre se ponen al final xd -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

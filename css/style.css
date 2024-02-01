@@ -1,0 +1,170 @@
+
+header{
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    width: 100%;
+    height: 160vh;
+    padding-top: 20px;
+}
+.bg-nav-rumbo{
+    background: transparent !important;
+
+}
+.bg-nav-rumbo ul li a.nav-link{
+    color: white;
+    font-size: 24px;
+}
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+  
+}
+#hero{
+    text-align: center;
+    margin-top: 200px;
+    
+
+}
+#hero h2{
+    font-size: 50px;
+    color: #e8f00c;
+    margin-bottom: 0;
+}
+#hero h1{
+    color: white;
+    margin-bottom: 100px;
+}
+.boton{
+    background-color:#e8ef0c;
+    color:#666666;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 10px;
+    font-weight: 700;
+    border-color: transparent;
+/* estilos de la seccion planes */    
+}
+#Planes{
+    height: 100%;
+    padding: 120px 0;
+    text-align: center;
+}
+#Planes h2{
+    font-weight: 700px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+#Planes p{
+    font-size: 20px;
+}
+#planes.plan{
+    margin-top: 80px;
+    position: relative;
+}
+#planes.plan h3{
+    color: #e8f00c;
+    position: absolute;
+    z-index: 99;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* estilo de la seccion destinos */
+#Destinos{
+    width: 100%;
+    background: url("../img/bg-destinos.png");
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#Destinos h2{
+    color: #e8f00c;
+    font-size: 40px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+#Destinos h3{
+    color: #ffff;
+    font-size: 28px;
+    margin: 20px 0px 50px 0px;
+}
+
+
+
+
+
+/* estilo seccion contactos */
+
+#Contacto{
+    background: #e8f00c;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0px;
+}
+#Contacto h2{
+    font-weight: 700px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: black;
+    
+}
+#Contacto p {
+    font-size: 20px ;
+    padding: 20px 20px 40px;
+    color: black;
+}
+#Contacto form{
+
+    max-width: 700px;
+    margin: auto;
+}
+#Contacto form input,#contacto form select,#ciudad{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    border: 1px solid #999;
+
+}
+
+ 
+ 
+ #Contacto form button{
+    padding: 12px 40px;
+    font-size: 18px;
+    background-color: rgb(149, 155, 39);
+    color: #ffff;
+    
+}
+/* estilo seccion pie */
+footer{
+    background-color: black;
+}
+.pie{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    color: #ffff;
+}
+/* tranciciones */
+#hero img{
+    transition: .5s;
+
+}
+#hero img:hover{
+    transform: rotate(-360deg);
+}
+.nav img:hover{
+     transform: scale(1.1);
+}
+button:hover{
+    box-shadow: 4px 4px 0 1px #999;
+}
+#Planes img:hover{
+    transform: scale(1.1);
+}
+#Destinos img:hover{
+    transform: scale(1.1);
+}
